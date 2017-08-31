@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="wasdev.ejb.it.EndpointIT" time="2.915" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.vendor" value="IBM Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\IBM\Java80\jre\bin\compressedrefs\jclSC180\vm.jar;C:\Program Files\IBM\Java80\jre\lib\se-service.jar;C:\Program Files\IBM\Java80\jre\lib\cuda4j.jar;C:\Program Files\IBM\Java80\jre\lib\math.jar;C:\Program Files\IBM\Java80\jre\lib\ibmorb.jar;C:\Program Files\IBM\Java80\jre\lib\ibmorbapi.jar;C:\Program Files\IBM\Java80\jre\lib\ibmcfw.jar;C:\Program Files\IBM\Java80\jre\lib\ibmpkcs.jar;C:\Program Files\IBM\Java80\jre\lib\ibmcertpathfw.jar;C:\Program Files\IBM\Java80\jre\lib\ibmjgssfw.jar;C:\Program Files\IBM\Java80\jre\lib\ibmjssefw.jar;C:\Program Files\IBM\Java80\jre\lib\ibmsaslfw.jar;C:\Program Files\IBM\Java80\jre\lib\ibmjcefw.jar;C:\Program Files\IBM\Java80\jre\lib\ibmjgssprovider.jar;C:\Program Files\IBM\Java80\jre\lib\ibmjsseprovider2.jar;C:\Program Files\IBM\Java80\jre\lib\ibmcertpathprovider.jar;C:\Program Files\IBM\Java80\jre\lib\xmldsigfw.jar;C:\Program Files\IBM\Java80\jre\lib\xml.jar;C:\Program Files\IBM\Java80\jre\lib\charsets.jar;C:\Program Files\IBM\Java80\jre\lib\resources.jar;C:\Program Files\IBM\Java80\jre\lib\rt.jar;C:\Program Files\IBM\Java80\jre\lib\dataaccess.jar"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="pwa6480sr3fp22-20161213_02 (SR3 FP22)"/>
+    <property name="user.name" value="GB118450"/>
+    <property name="java.compiler" value="j9jit28"/>
+    <property name="os.encoding" value="UTF8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="en"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Program Files\IBM\Java80\jre\bin\compressedrefs;C:\Program Files\IBM\Java80\jre\bin"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\IBM\Java80\jre\bin\compressedrefs;C:\Program Files\IBM\Java80\jre\bin"/>
+    <property name="classworlds.conf" value="C:\Users\IBM_ADMIN\Documents\Docker\08 - August\ear stuff\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6097170035961239093.tmp"/>
+    <property name="java.version" value="1.8.0"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="com.ibm.system.agent.path" value="C:\Program Files\IBM\Java80\jre\bin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\IBM\Java80\jre\lib\endorsed"/>
+    <property name="com.ibm.oti.vm.library.version" value="28"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="com.ibm.packed.version" value="2"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="C:\Program Files\IBM\Java80\jre"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Windows 10 amd64-64 Compressed References 20161209_329148 (JIT enabled, AOT enabled)&#10;J9VM - R28_20161209_1345_B329148&#10;JIT  - tr.r14.java.green_20161207_128946&#10;GC   - R28_20161209_1345_B329148_CMPRSS&#10;J9CL - 20161209_329148"/>
+    <property name="os.version" value="10.0"/>
+    <property name="org.apache.commons.logging.simplelog.showShortLogname" value="false"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="2.8"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="C:\Users\IBM_ADMIN"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\IBM\Java80\jre\bin\compressedrefs;C:\Program Files\IBM\Java80\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\IBM\Infoprint Select;C:\Program Files\nodejs\;C:\Program Files\CloudFoundry;C:\apache-maven-3.3.9\bin;C:\Program Files\IBM\Bluemix\bin;C:\Program Files\Cloud Foundry;C:\Python27\Scripts;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Go\bin;C:\Tcl\bin;C:\Ruby23-x64\bin;C:\Users\IBM_ADMIN\AppData\Local\atom\bin;C:\Users\IBM_ADMIN\AppData\Roaming\npm;C:\Users\IBM_ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Users\IBM_ADMIN\Documents\Dos2Unix\bin;C:\Users\IBM_ADMIN\Documents\GitHub\Liber8\Jan 17;C:\Users\IBM_ADMIN\Documents\Docker\Helm;C:\Users\IBM_ADMIN\AppData\Local\GitHub\PortableGit_624c8416ee51e205b3f892d1d904e06e6f3c57c8\cmd;C:\Program Files (x86)\GnuWin32\bin;C:\Go\bin\bin;C:\Program Files\MongoDB\Server\3.4\bin;C:\Python27;C:\Program Files (x86)\Kubernetes\Minikube;C:\Tcl\bin;C:\Ruby23-x64\bin;C:\Users\IBM_ADMIN\AppData\Local\atom\bin;C:\Program Files\nodejs;C:\Users\IBM_ADMIN\AppData\Roaming\npm;C:\Users\IBM_ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Users\IBM_ADMIN\Documents\Dos2Unix\bin;C:\Users\IBM_ADMIN\Documents\GitHub\Liber8\Jan 17;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\IBM_ADMIN\Documents\Docker\Helm;C:\Users\IBM_ADMIN\AppData\Local\GitHub\PortableGit_624c8416ee51e205b3f892d1d904e06e6f3c57c8\cmd;C:\Program Files (x86)\GnuWin32\bin;C:\Go\bin\bin;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\IBM\Infoprint Select;C:\Program Files\nodejs\;C:\Program Files\CloudFoundry;C:\apache-maven-3.3.9\bin;C:\Program Files\IBM\Bluemix\bin;C:\Program Files\Cloud Foundry;C:\Python27\Scripts;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Go\bin;C:\Tcl\bin;C:\Ruby23-x64\bin;C:\Users\IBM_ADMIN\AppData\Local\atom\bin;C:\Users\IBM_ADMIN\AppData\Roaming\npm;C:\Users\IBM_ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Users\IBM_ADMIN\Documents\Dos2Unix\bin;C:\Users\IBM_ADMIN\Documents\GitHub\Liber8\Jan 17;C:\Users\IBM_ADMIN\Documents\Docker\Helm;C:\Users\IBM_ADMIN\AppData\Local\GitHub\PortableGit_624c8416ee51e205b3f892d1d904e06e6f3c57c8\cmd;C:\Program Files (x86)\GnuWin32\bin;C:\Go\bin\bin;C:\Program Files\MongoDB\Server\3.4\bin;C:\Python27;C:\Program Files (x86)\Kubernetes\Minikube;C:\Python27;C:\Users\IBM_ADMIN\Documents\PATH;."/>
+    <property name="java.vendor.url" value="http://www.ibm.com/"/>
+    <property name="java.vm.vendor" value="IBM Corporation"/>
+    <property name="java.fullversion" value="JRE 1.8.0 IBM J9 2.8 Windows 10 amd64-64 Compressed References 20161209_329148 (JIT enabled, AOT enabled)&#10;J9VM - R28_20161209_1345_B329148&#10;JIT  - tr.r14.java.green_20161207_128946&#10;GC   - R28_20161209_1345_B329148_CMPRSS&#10;J9CL - 20161209_329148"/>
+    <property name="maven.home" value="C:\Users\IBM_ADMIN\Documents\Docker\08 - August\ear stuff\use this one\ejb\EMBEDDED"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.class.path" value="/C:/Users/IBM_ADMIN/Documents/Eclipse/eclipse neon 18may/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="C:\Users\IBM_AD~1\AppData\Local\Temp\"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\IBM_ADMIN\Documents\Docker\08 - August\ear stuff\use this one\ejb"/>
+    <property name="ibm.system.encoding" value="Cp1252"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="java.ext.dirs" value="C:\Program Files\IBM\Java80\jre\lib\ext"/>
+    <property name="user.dir" value="C:\Users\IBM_ADMIN\Documents\Docker\08 - August\ear stuff\use this one\ejb"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="IBM J9 VM"/>
+    <property name="org.apache.commons.logging.Log" value="org.apache.commons.logging.impl.SimpleLog"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="com.ibm.oti.jcl.build" value="20161209_329148"/>
+  </properties>
+  <testcase name="testServlet" classname="wasdev.ejb.it.EndpointIT" time="2.697"/>
+</testsuite>

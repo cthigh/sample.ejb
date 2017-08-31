@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="C:\Users\IBM_ADMIN\Documents\Docker\08 - August\ear stuff\use this one\ejb\ejb-ear\src\main\application" targetInArchive="/"/>
+    <file sourceOnDisk="C:\Users\IBM_ADMIN\Documents\Docker\08 - August\ear stuff\use this one\ejb\ejb-ear\target\application.xml" targetInArchive="/META-INF/application.xml"/>
+    <archive targetInArchive="/ejb-ejb.jar">
+        <dir sourceOnDisk="C:\Users\IBM_ADMIN\Documents\Docker\08 - August\ear stuff\use this one\ejb\ejb-ejb\target\classes" targetInArchive="/"/>
+        <file sourceOnDisk="C:\Users\IBM_ADMIN\Documents\Docker\08 - August\ear stuff\use this one\ejb\ejb-ear\target\liberty-maven\resources\META-INF\MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+    </archive>
+    <archive targetInArchive="/ejb-war.war">
+        <dir sourceOnDisk="C:\Users\IBM_ADMIN\Documents\Docker\08 - August\ear stuff\use this one\ejb\ejb-war\src\main\webapp" targetInArchive="/"/>
+        <dir sourceOnDisk="C:\Users\IBM_ADMIN\Documents\Docker\08 - August\ear stuff\use this one\ejb\ejb-war\target\classes" targetInArchive="/WEB-INF/classes"/>
+        <file sourceOnDisk="C:\Users\IBM_ADMIN\Documents\Docker\08 - August\ear stuff\use this one\ejb\ejb-ear\target\liberty-maven\resources\META-INF\MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+    </archive>
+    <file sourceOnDisk="C:\Users\IBM_ADMIN\Documents\Docker\08 - August\ear stuff\use this one\ejb\ejb-ear\target\liberty-maven\resources\META-INF\MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+</archive>

@@ -1,0 +1,18 @@
+Launching ejbServer (WebSphere Application Server 17.0.0.2/wlp-1.0.17.cl170220170523-1818) on IBM J9 VM, version pwa6480sr3fp22-20161213_02 (SR3 FP22) (en_US)
+[AUDIT   ] CWWKE0001I: The server ejbServer has been launched.
+[AUDIT   ] CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/17.0.0.2/lafiles/en.html
+[AUDIT   ] CWWKZ0058I: Monitoring dropins for applications. 
+[AUDIT   ] CWWKS4104A: LTPA keys created in 7.166 seconds. LTPA key file: C:/Users/IBM_ADMIN/Documents/Docker/08 - August/ear stuff/use this one/ejb/ejb-ear/target/liberty/wlp/usr/servers/ejbServer/resources/security/ltpa.keys
+[AUDIT   ] CWPKI0803A: SSL certificate created in 13.921 seconds. SSL key file: C:/Users/IBM_ADMIN/Documents/Docker/08 - August/ear stuff/use this one/ejb/ejb-ear/target/liberty/wlp/usr/servers/ejbServer/resources/security/key.jks
+[AUDIT   ] CWWKI0001I: The CORBA name server is now available at corbaloc:iiop:localhost:2809/NameService.
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://localhost:9080/ejb-war/
+[AUDIT   ] CWWKZ0001I: Application ejb-ear started in 8.020 seconds.
+[AUDIT   ] CWWKF0012I: The server installed the following features: [servlet-3.1, beanValidation-1.1, ssl-1.0, jndi-1.0, jca-1.7, ejbPersistentTimer-3.2, appSecurity-2.0, j2eeManagement-1.1, jdbc-4.1, wasJmsServer-1.0, jaxrs-2.0, javaMail-1.5, cdi-1.2, webProfile-7.0, jcaInboundSecurity-1.0, jpa-2.1, jsp-2.3, ejbLite-3.2, managedBeans-1.0, jsf-2.2, ejbHome-3.2, jaxws-2.2, jsonp-1.0, el-3.0, jaxrsClient-2.0, concurrent-1.0, appClientSupport-1.0, ejbRemote-3.2, javaee-7.0, jaxb-2.2, mdb-3.2, jacc-1.5, batch-1.0, ejb-3.2, json-1.0, jaspic-1.1, jpaContainer-2.1, distributedMap-1.0, websocket-1.1, wasJmsSecurity-1.0, wasJmsClient-2.0].
+[AUDIT   ] CWWKF0011I: The server ejbServer is ready to run a smarter planet.
+[AUDIT   ] CWWKE0055I: Server shutdown requested on Thursday, August 31, 2017 at 1:26 PM. The server ejbServer is shutting down.
+[AUDIT   ] CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[AUDIT   ] CWWKT0017I: Web application removed (default_host): http://localhost:9080/ejb-war/
+[AUDIT   ] CWWKZ0009I: The application ejb-ear has stopped successfully.
+[AUDIT   ] CWWKI0002I: The CORBA name server is no longer available at corbaloc:iiop:localhost:2809/NameService.
+[AUDIT   ] WTRN0105I: The transaction service has shutdown successfully with no transactions requiring recovery.
+[AUDIT   ] CWWKE0036I: The server ejbServer stopped after 1 minutes, 34.092 seconds.
